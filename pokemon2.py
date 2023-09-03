@@ -1,5 +1,10 @@
 #NOMBRE: LUIS CIPRIANO RODRIGUEZ GONZALEZ
 #MATRICULA: 1753573
+#script en python que consulta el api de pokemon
+#para listar los nombres de los pokemons pero se le agrego
+#interaccion para que listaras mas pokemons segun se vaya requiriendo
+#contribuyo: Luis Cipriano
+#Fecha: 03/09/2023
 import requests
 def get_pokemons (url = "https://pokeapi.co/api/v2/pokemon-form/", offset=0):
     args = {"offset":offset} if offset else {}
